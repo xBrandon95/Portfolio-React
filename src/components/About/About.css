@@ -1,0 +1,96 @@
+.about-section {
+  padding: 8rem 0;
+  min-height: 100vh;
+}
+
+.about-section .about-img {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.about-section .about-img .img-box {
+  padding: 1.5rem;
+  border: 1rem solid transparent;
+  border-radius: 2.5rem;
+}
+
+.about-section .about-info {
+  flex: 0 0 60%;
+  max-width: 60%;
+  padding: 0 1.8rem;
+}
+
+.about-section .about-info p {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-black-600);
+}
+
+.about-section .about-info span {
+  font-weight: 600;
+}
+
+.about-section .about-info .btn-1 {
+  margin: 3rem 2rem 0 0;
+}
+
+.about-section .social-links {
+  margin-top: 2rem;
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+.about-section .social-links a {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 5rem;
+  color: var(--text-black-600);
+  margin: 0 0.4rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  margin: 0 1rem;
+}
+
+.about-section .social-links a i {
+  line-height: 5rem;
+}
+
+.about-section .social-links a:after {
+  border-radius: 50%;
+}
+
+.about-section .social-links a:hover {
+  color: var(--skin-color);
+}
+
+.about-section .about-tabs {
+  padding: 6rem 1.5rem 5rem;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.about-section .about-tabs .tab-item {
+  display: inline-block;
+  margin: 0 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.6rem;
+  color: var(--text-black-600);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.about-section .about-tabs .tab-item:hover:not(.active) {
+  opacity: 0.6;
+}
+
+.about-section .about-tabs .tab-item.active {
+  color: var(--skin-color);
+}
