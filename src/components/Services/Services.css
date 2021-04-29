@@ -16,7 +16,7 @@
   border-radius: 0.5rem;
   text-align: center;
   width: 100%;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .service-section .service-item-inner .icon {
@@ -49,7 +49,7 @@
   box-shadow: var(--outer-shadow);
 }
 
-.service-section .service-item:hover .icon {
+.service-section .service-item-inner:hover .icon {
   color: var(--skin-color);
 }
 

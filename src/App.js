@@ -3,6 +3,8 @@ import About from './components/About/About';
 
 import './skins/color-1.css';
 import Services from './components/Services/Services';
+import Portfolio from './components/Portfolio/Portfolio';
+import './Main';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <Portfolio />
     </>
   );
 }

@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 const AboutTabs = () => {
   // About section tabs
-
   const handleClickTab = e => {
     const aboutSection = document.querySelector('.about-section');
     const tabsContainer = document.querySelector('.about-tabs');
