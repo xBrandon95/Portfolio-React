@@ -1,6 +1,8 @@
 .testimonial-section {
   padding: 80px 0 80px;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .testimonial-section .testi-box {

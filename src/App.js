@@ -5,6 +5,7 @@ import './skins/color-1.css';
 import Services from './components/Services/Services';
 import Portfolio from './components/Portfolio/Portfolio';
 import Testimonial from './components/Testimonial/Testimonial';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Portfolio />
       <Testimonial />
+      <Contact />
     </>
   );
 }
