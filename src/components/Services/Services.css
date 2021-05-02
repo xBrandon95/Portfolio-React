@@ -1,6 +1,6 @@
 .service-section {
-  padding: 4rem 0 4rem;
-  min-height: 100vh;
+  padding: 8rem 0 2rem;
+  /* min-height: 100vh; */
 }
 
 .service-section .service-item {

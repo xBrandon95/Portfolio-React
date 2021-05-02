@@ -38,14 +38,14 @@ const NavMenu = () => {
                 Portafolio
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#testimonial"
                 className="link-item outer-shadow hover-in-shadow"
               >
                 Testimonial
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="#contact"
@@ -57,6 +57,7 @@ const NavMenu = () => {
           </ul>
         </div>
         {/* copyright text */}
+
         <p className="copyright-text">&copy; 2021 The xSagaX</p>
       </nav>
       <div className="fade-out-effect" />

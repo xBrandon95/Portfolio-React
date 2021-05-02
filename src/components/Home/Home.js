@@ -28,20 +28,58 @@ const Home = () => {
       // bodyScrollingToggle();
     }
 
+    // // attach and event handler to document
+    // document.addEventListener('click', e => {
+    //   if (e.target.classList.contains('link-item')) {
+    //     /* make sure event.target.hash has a value before overridding default behavior */
+    //     if (e.target.hash !== '') {
+    //       // prevent default anchor click behavior
+    //       e.preventDefault();
+    //       const { hash } = e.target;
+    //       // deactivate existing active section
+    //       document.querySelector('.section.active').classList.add('hide');
+    //       document.querySelector('.section.active').classList.remove('active');
+    //       document.querySelector(hash).classList.add('active');
+    //       document.querySelector(hash).classList.remove('hide');
+    //       // deactivate existing active navigation menu 'link-item'
+    //       navMenu
+    //         .querySelector('.active')
+    //         .classList.add('outer-shadow', 'hover-in-shadow');
+
+    //       navMenu
+    //         .querySelector('.active')
+    //         .classList.remove('active', 'inner-shadow');
+
+    //       // if clicked 'link-item' is contained withing the navigation menu
+    //       if (navMenu.classList.contains('open')) {
+    //         // active new navigation menu link item
+    //         e.target.classList.add('active', 'inner-shadow');
+    //         e.target.classList.remove('outer-shadow', 'hover-in-shadow');
+
+    //         // hide navigation menu
+    //         hideNavMenu();
+    //       } else {
+    //         const navItems = navMenu.querySelectorAll('.link-item');
+    //         navItems.forEach(item => {
+    //           if (hash === item.hash) {
+    //             // activate the navigation menu link item
+    //             item.classList.add('active', 'inner-shadow');
+    //             item.classList.remove('outer-shadow', 'hover-in-shadow');
+    //           }
+    //         });
+    //         // fadeOutEffect();
+    //       }
+    //       // add has (#) to url
+    //       window.location.hash = hash;
+    //     }
+    //   }
+    // });
+
     // attach and event handler to document
     document.addEventListener('click', e => {
       if (e.target.classList.contains('link-item')) {
-        /* make sure event.target.hash has a value before overridding default behavior */
         if (e.target.hash !== '') {
-          // prevent default anchor click behavior
-          e.preventDefault();
           const { hash } = e.target;
-          // deactivate existing active section
-          document.querySelector('.section.active').classList.add('hide');
-          document.querySelector('.section.active').classList.remove('active');
-          document.querySelector(hash).classList.add('active');
-          document.querySelector(hash).classList.remove('hide');
-          // deactivate existing active navigation menu 'link-item'
           navMenu
             .querySelector('.active')
             .classList.add('outer-shadow', 'hover-in-shadow');
@@ -49,14 +87,9 @@ const Home = () => {
           navMenu
             .querySelector('.active')
             .classList.remove('active', 'inner-shadow');
-
-          // if clicked 'link-item' is contained withing the navigation menu
           if (navMenu.classList.contains('open')) {
-            // active new navigation menu link item
             e.target.classList.add('active', 'inner-shadow');
             e.target.classList.remove('outer-shadow', 'hover-in-shadow');
-
-            // hide navigation menu
             hideNavMenu();
           } else {
             const navItems = navMenu.querySelectorAll('.link-item');
@@ -67,10 +100,8 @@ const Home = () => {
                 item.classList.remove('outer-shadow', 'hover-in-shadow');
               }
             });
-            fadeOutEffect();
+            // fadeOutEffect();
           }
-          // add has (#) to url
-          window.location.hash = hash;
         }
       }
     });

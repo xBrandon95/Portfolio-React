@@ -81,20 +81,20 @@ const portfolioData = [
     images:
       'img/portfolio/large/project-6/1.png, img/portfolio/large/project-6/2.png, img/portfolio/large/project-6/3.png',
   },
-  {
-    id: 7,
-    title: 'xyz app',
-    description:
-      '7Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumdicta est officiis quae ab, porro laborum et quos aliquid maximelaboriosam dolores repudiandae incidunt esse.',
-    image: 'img/portfolio/thumb/project-7.png',
-    category: 'mobile-app',
-    date: '2020',
-    client: 'xyz',
-    tools: 'html, css, javascript',
-    url: 'www.domain.com',
-    images:
-      'img/portfolio/large/project-7/1.png, img/portfolio/large/project-7/2.png',
-  },
+  // {
+  //   id: 7,
+  //   title: 'xyz app',
+  //   description:
+  //     '7Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumdicta est officiis quae ab, porro laborum et quos aliquid maximelaboriosam dolores repudiandae incidunt esse.',
+  //   image: 'img/portfolio/thumb/project-7.png',
+  //   category: 'mobile-app',
+  //   date: '2020',
+  //   client: 'xyz',
+  //   tools: 'html, css, javascript',
+  //   url: 'www.domain.com',
+  //   images:
+  //     'img/portfolio/large/project-7/1.png, img/portfolio/large/project-7/2.png',
+  // },
   // {
   //   id: 8,
   //   title: 'Personal Portfolio',

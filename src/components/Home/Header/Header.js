@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header outer-shadow">
       <div className="container">
         <div className="row content-between items-center">
           <div className="logo">
