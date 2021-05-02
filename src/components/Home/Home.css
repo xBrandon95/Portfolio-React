@@ -32,7 +32,7 @@
 .home-section .home-text h1 {
   font-size: 3rem;
   font-weight: 600;
-  color: var(--text-black-700);
+  color: var(--text-black-600);
   margin: 0;
   text-transform: capitalize;
 }

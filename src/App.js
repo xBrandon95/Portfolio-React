@@ -3,11 +3,11 @@ import { useEffect } from 'react';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 
-import './skins/color-1.css';
 import Services from './components/Services/Services';
 import Portfolio from './components/Portfolio/Portfolio';
 // import Testimonial from './components/Testimonial/Testimonial';
 import Contact from './components/Contact/Contact';
+import Switcher from './components/Switcher/Switcher';
 
 function App() {
   useEffect(() => {
@@ -28,6 +28,7 @@ function App() {
       <Portfolio />
       {/* <Testimonial /> */}
       <Contact />
+      <Switcher />
     </>
   );
 }
