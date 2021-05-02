@@ -8,7 +8,7 @@ import SocialLinks from './SocialLinks';
 
 const About = () => {
   return (
-    <section className="about-section section">
+    <section className="about-section section" id="about">
       <div className="container">
         <div className="row">
           <div className="section-title">

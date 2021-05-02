@@ -43,6 +43,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -282,3 +283,7 @@ img {
   font-weight: 600;
   color: var(--skin-color);
 }
+
+/* .section.hide {
+  display: none;
+} */

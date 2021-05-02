@@ -5,7 +5,7 @@ import ContactItem from './ContactItem';
 
 const Contact = () => {
   return (
-    <div className="contact-section section">
+    <div className="contact-section section" id="contact">
       <div className="container">
         <div className="row">
           <div className="section-title">

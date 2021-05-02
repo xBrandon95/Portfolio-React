@@ -177,7 +177,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <section className="portfolio-section section">
+      <section className="portfolio-section section" id="portfolio">
         <div className="container">
           <div className="row">
             <div className="section-title">

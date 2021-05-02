@@ -33,7 +33,10 @@ const Info = () => {
         <a href="cv.pdf" className="btn-1 outer-shadow hover-in-shadow">
           Descargar CV
         </a>
-        <a href="#e" className="btn-1 outer-shadow hover-in-shadow">
+        <a
+          href="#contact"
+          className="link-item btn-1 outer-shadow hover-in-shadow"
+        >
           Contáctame
         </a>
       </div>

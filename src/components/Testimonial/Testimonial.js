@@ -56,7 +56,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div className="testimonial-section section">
+    <div className="testimonial-section section" id="testimonial">
       <div className="container">
         <div className="row">
           <div className="section-title">
