@@ -24,12 +24,6 @@ const Info = () => {
           sed. Mauris in diam et tellus rhoncus porta. Nulla bibendum, odio in
           facilisis ultricies, elit leo porta purus, sed
         </p>
-        <p>
-          Iaculis odio urna ac est. Vestibulum ante ipsum primis in faucibus
-          orci luctus et ultrices posuere cubilia curae; Praesent gravida mi ac
-          suscipit pellentesque. Nullam hendrerit ornare erat, vitae dictum
-          metus sodales vel. Mauris vitae ipsum dolor.
-        </p>
         <a href="cv.pdf" className="btn-1 outer-shadow hover-in-shadow">
           Descargar CV
         </a>

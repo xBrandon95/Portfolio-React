@@ -173,8 +173,8 @@ img {
   animation: spin 10s linear infinite;
 }
 .effect-2 {
-  left: 3%;
-  bottom: 20%;
+  left: 10%;
+  bottom: 10%;
   width: 4rem;
   display: flex;
   flex-wrap: wrap;

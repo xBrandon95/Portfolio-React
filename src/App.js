@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 
+import Preloader from './components/Preloader/Preloader';
 import Services from './components/Services/Services';
 import Portfolio from './components/Portfolio/Portfolio';
 // import Testimonial from './components/Testimonial/Testimonial';
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <>
+      <Preloader />
       <Home />
       <About />
       <Services />
