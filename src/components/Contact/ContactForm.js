@@ -8,28 +8,28 @@ const ContactForm = () => {
               <div className="input-group outer-shadow hover-in-shadow">
                 <input
                   type="text"
-                  placeholder="Name"
+                  placeholder="Nombre"
                   className="input-control"
                 />
               </div>
               <div className="input-group outer-shadow hover-in-shadow">
                 <input
                   type="email"
-                  placeholder="Email"
+                  placeholder="Correo"
                   className="input-control"
                 />
               </div>
               <div className="input-group outer-shadow hover-in-shadow">
                 <input
                   type="text"
-                  placeholder="Subject"
+                  placeholder="Asunto"
                   className="input-control"
                 />
               </div>
             </div>
             <div className="w-50">
               <div className="input-group outer-shadow hover-in-shadow">
-                <textarea className="input-control" placeholder="Message" />
+                <textarea className="input-control" placeholder="Mensaje" />
               </div>
             </div>
           </div>

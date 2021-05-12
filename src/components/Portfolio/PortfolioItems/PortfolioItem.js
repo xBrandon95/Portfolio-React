@@ -17,7 +17,7 @@ const PortfolioItem = ({ data }) => {
         <div className="portfolio-item-img">
           <img src={image} alt={title} data-screenshots={images} />
           {/* view project btn */}
-          <span className="view-project">view project</span>
+          <span className="view-project">Ver Proyecto</span>
         </div>
         <p className="portfolio-item-title">{title}</p>
 
@@ -29,21 +29,23 @@ const PortfolioItem = ({ data }) => {
               <p>{description}</p>
             </div>
             <div className="info">
-              <h3>Informacion del Proyecto</h3>
+              <h3>Información del Proyecto</h3>
               <ul>
                 <li>
                   Fecha - <span>{date}</span>
                 </li>
                 <li>
-                  Client - <span>{client}</span>
+                  Cliente - <span>{client}</span>
                 </li>
                 <li>
-                  Tools - <span>{tools}</span>
+                  Herramientas - <span>{tools}</span>
                 </li>
                 <li>
-                  Web -
+                  Sitio Web -
                   <span>
-                    <a href={url}> site</a>
+                    <a target="_blank" href={url} rel="noreferrer">
+                      Ver Proyecto
+                    </a>
                   </span>
                 </li>
               </ul>

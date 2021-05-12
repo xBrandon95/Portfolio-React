@@ -4,7 +4,7 @@
 }
 
 .about-section .about-img {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
   max-width: 40%;
 }
 
@@ -12,12 +12,13 @@
   padding: 1.5rem;
   border: 1rem solid transparent;
   border-radius: 2.5rem;
+  text-align: center;
 }
 
 .about-section .about-info {
-  flex: 0 0 60%;
+  flex: 0 0 55%;
   max-width: 60%;
-  padding: 0 1.8rem;
+  padding: 0 2rem;
 }
 
 .about-section .about-info p {
@@ -37,7 +38,7 @@
 }
 
 .about-section .social-links {
-  margin-top: 2rem;
+  margin-top: 4rem;
   flex: 0 0 100%;
   text-align: center;
 }
@@ -112,16 +113,27 @@
 }
 
 .about-section .skills .skill-item {
-  flex: 0 0 calc(50% - 1.5rem);
-  max-width: 50%;
-  margin-bottom: 4rem;
+  flex: 0 0 calc(15% - 1.5rem);
+  max-width: 15%;
+  margin: 2rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section .skills .skill-item img {
+  width: 9rem;
+  height: 9rem;
 }
 
 .about-section .skills .skill-item p {
   font-size: 1.6rem;
+  font-weight: bold;
   color: var(--text-black-600);
   text-transform: capitalize;
-  margin: 0 0 1rem;
+  margin: 2.5rem 0 1rem;
+  letter-spacing: 1px;
 }
 
 .about-section .skills .skill-item .progress {
@@ -166,7 +178,7 @@
   height: 100%;
   left: 50%;
   top: 0;
-  background-color: var(--bg-black-100);
+  background-color: var(--bg-black-20);
   position: absolute;
 }
 
@@ -177,11 +189,12 @@
 
 .about-section .timeline .timeline-item:nth-child(odd) {
   padding-right: calc(50% + 5rem);
-  text-align: right;
+  text-align: center;
 }
 
 .about-section .timeline .timeline-item:nth-child(even) {
   padding-left: calc(50% + 5rem);
+  text-align: center;
 }
 
 .about-section .timeline .timeline-item-inner {

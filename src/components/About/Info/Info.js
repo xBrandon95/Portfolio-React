@@ -1,6 +1,8 @@
+import SocialLinks from '../SocialLinks';
+
 const Info = () => {
   return (
-    <div className="row items-center">
+    <div className="row items-center content-center">
       <div className="about-img">
         <div className="img-box inner-shadow">
           <img
@@ -12,17 +14,16 @@ const Info = () => {
       </div>
       <div className="about-info">
         <p>
-          <span>
-            Hola mi nombre es John Ticona y soy Desarrollador Frontend.
-          </span>
-          Phasellus orci est, rutrum eget felis non, elementum egestas enim.
-          Maecenas auctor non nibh sit amet faucibus. Vivamus vel imperdiet
-          purus, eget sollicitudin eros. Integer vitae ipsum justo. Praesent
-          nunc mauris, facilisis finibus tempus vitae, laoreet non diam. Orci
-          varius natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Vivamus faucibus mi ante, nec rhoncus odio fringilla
-          sed. Mauris in diam et tellus rhoncus porta. Nulla bibendum, odio in
-          facilisis ultricies, elit leo porta purus, sed
+          <span>Hola mi nombre es John Ticona y soy Frontend Developer</span>,
+          <br />
+          estudio la carrera de Informática, me considero una persona
+          autodidacta que le apasiona la tecnología, con muchas ganas de
+          trabajar, aprender cosas nuevas, mejorar mis habilidades y colaborar
+          en equipo.
+          {/* Busco siempre hacer el trabajo de manera eficiente y
+          organizada además de concretar siempre mi trabajo de la mejor manera
+          sin nunca apartarme de aprender, dando un estilo único y propio a cada
+          proyecto e intentando innovar. */}
         </p>
         <a href="cv.pdf" className="btn-1 outer-shadow hover-in-shadow">
           Descargar CV
@@ -33,6 +34,7 @@ const Info = () => {
         >
           Contáctame
         </a>
+        <SocialLinks />
       </div>
     </div>
   );

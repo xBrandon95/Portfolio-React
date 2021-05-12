@@ -119,9 +119,9 @@ const Home = () => {
         <div className="container">
           <div className="row full-screen items-center">
             <div className="home-text">
-              <p>Hola</p>
-              <h2>Soy John Ticona</h2>
-              <h1>Desarrollador Frontend</h1>
+              <p>Hola soy: </p>
+              <h2>{`< John Ticona />`}</h2>
+              <h1>Frontend Developer</h1>
               <a
                 href="#about"
                 className="link-item btn-1 outer-shadow hover-in-shadow"
@@ -130,12 +130,8 @@ const Home = () => {
               </a>
             </div>
             <div className="home-img">
-              <div className="img-box inner-shadow">
-                <img
-                  src="img/profile-pic.png"
-                  className="outer-shadow"
-                  alt="profile-pic"
-                />
+              <div className="img-box">
+                <img src="img/home.png" alt="profile-pic" />
               </div>
             </div>
           </div>

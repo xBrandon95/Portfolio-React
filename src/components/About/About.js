@@ -4,7 +4,6 @@ import Experience from './Experience/Experience';
 import AboutTabs from './Info/AboutTabs';
 import Info from './Info/Info';
 import ListSkills from './Skills/ListSkills';
-import SocialLinks from './SocialLinks';
 
 const About = () => {
   return (
@@ -12,11 +11,10 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="section-title">
-            <h2 data-heading="main info">Acerca de Mi</h2>
+            <h2 data-heading="¿Quien Soy?">Acerca de Mi</h2>
           </div>
         </div>
         <Info />
-        <SocialLinks />
         <AboutTabs />
         <ListSkills />
         <Experience />

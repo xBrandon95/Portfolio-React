@@ -1,4 +1,4 @@
-const TimeLine = ({ job, company, date, icon }) => {
+const TimeLine = ({ job, company, date, icon, description = '' }) => {
   return (
     <div className="timeline-item">
       <div className="timeline-item-inner outer-shadow">
@@ -6,10 +6,7 @@ const TimeLine = ({ job, company, date, icon }) => {
         <span>{date}</span>
         <h3>{job}</h3>
         <h4>{company}</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae autem
-          nemo quis adipisci saepe optio porro earum nostrum suscipit corrupti!
-        </p>
+        <p>{description}</p>
       </div>
     </div>
   );

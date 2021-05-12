@@ -8,23 +8,23 @@ const Education = () => {
           <div className="timeline">
             <div className="row">
               <TimeLine
-                job="Master in Computer Science"
-                company="Universidad Mayor de San Andres"
-                date="2012 - 2014 "
+                job="Estudiante - INFORMÁTICA"
+                company="Universidad Mayor de San Andrés"
+                date="2017 - 2021"
                 icon="fa-graduation-cap"
               />
               <TimeLine
-                job="Master in Computer Science"
-                company="Universidad Mayor de San Andres"
-                date="2010 - 2012"
+                job="Tecnico Medio - Sistemas Computacionales"
+                company="CEA - DON BOSCO"
+                date="2018 - 2020"
                 icon="fa-graduation-cap"
               />
-              <TimeLine
+              {/* <TimeLine
                 job="Master in Computer Science"
                 company="Market, La Paz"
                 date="2008 - 2010"
                 icon="fa-graduation-cap"
-              />
+              /> */}
             </div>
           </div>
         </div>

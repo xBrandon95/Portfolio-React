@@ -35,9 +35,9 @@ const AboutTabs = () => {
         <span className="tab-item outer-shadow active" data-target=".skills">
           Skills
         </span>
-        <span className="tab-item" data-target=".experience">
+        {/* <span className="tab-item" data-target=".experience">
           Experiencia
-        </span>
+        </span> */}
         <span className="tab-item" data-target=".education">
           Educación
         </span>

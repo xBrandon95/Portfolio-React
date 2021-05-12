@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container">
         <div className="row content-between items-center">
           <div className="logo">
-            <a href="index.html">B</a>
+            <a href="index.html">J</a>
           </div>
           <div className="hamburger-btn outer-shadow hover-in-shadow">
             <span />

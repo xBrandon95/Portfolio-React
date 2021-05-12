@@ -1,19 +1,19 @@
 const contactsInfo = [
   {
     id: 1,
-    name: 'Phone',
+    name: 'Celular',
     icon: 'fa fa-phone',
     content: '+591 77703553',
   },
   {
     id: 2,
-    name: 'Email',
+    name: 'Correo',
     icon: 'fa fa-envelope',
     content: 'jbticona2@gmail.com',
   },
   {
     id: 3,
-    name: 'Address',
+    name: 'Dirección',
     icon: 'fa fa-map-marker-alt',
     content: 'La Paz - Bolivia',
   },

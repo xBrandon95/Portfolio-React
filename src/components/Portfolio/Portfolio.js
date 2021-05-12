@@ -181,7 +181,7 @@ const Portfolio = () => {
         <div className="container">
           <div className="row">
             <div className="section-title">
-              <h2 data-heading="portfolio">Lastest Works</h2>
+              <h2 data-heading="portafolio">Mis trabajos</h2>
             </div>
           </div>
           <div className="row">
