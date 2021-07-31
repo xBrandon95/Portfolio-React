@@ -1,6 +1,5 @@
 import ServiceItem from './ServiceItem';
-import servicesData from './ServiceData';
-
+import servicesData from '../../services/servicesData';
 import './Services.css';
 
 const Services = () => {

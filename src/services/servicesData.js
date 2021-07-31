@@ -1,22 +1,28 @@
+import {
+  faLaptopCode,
+  faMobileAlt,
+  faBolt,
+} from '@fortawesome/free-solid-svg-icons';
+
 const servicesData = [
   {
     id: 1,
     title: 'Paginas Web',
-    icon: 'fa fa-laptop-code',
+    icon: faLaptopCode,
     description:
       'Creación de paginas web atractivas y amigables para ti o tu negocio',
   },
   {
     id: 2,
     title: 'Diseño Responsivo',
-    icon: 'fa fa-mobile-alt',
+    icon: faMobileAlt,
     description:
       'Diseño adapatable a todo tamaño de pantallas para brindarte una mejor experiencia.',
   },
   {
     id: 3,
     title: 'Optimización Web',
-    icon: 'fa fa-bolt',
+    icon: faBolt,
     description: 'Optimizo tu sitio web para que cargue lo más rápido posible',
   },
   // {
