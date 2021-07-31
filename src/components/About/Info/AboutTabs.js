@@ -1,46 +1,18 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-const AboutTabs = () => {
-  // About section tabs
-  const handleClickTab = e => {
-    const aboutSection = document.querySelector('.about-section');
-    const tabsContainer = document.querySelector('.about-tabs');
+import { listTabs } from '../../../services/aboutData';
 
-    if (
-      e.target.classList.contains('tab-item') &&
-      !e.target.classList.contains('active')
-    ) {
-      const target = e.target.getAttribute('data-target');
-
-      // deactivate existing active 'tab-item
-      tabsContainer
-        .querySelector('.active')
-        .classList.remove('outer-shadow', 'active');
-
-      // activate new tab-item
-      e.target.classList.add('active', 'outer-shadow');
-
-      // deactivate existing active 'tab-content
-      aboutSection
-        .querySelector('.tab-content.active')
-        .classList.remove('active');
-
-      // activate new 'tab-content
-      aboutSection.querySelector(target).classList.add('active');
-    }
-  };
-
+const AboutTabs = ({ selected, setSelected }) => {
   return (
     <div className="row">
-      <div className="about-tabs" onClick={handleClickTab}>
-        <span className="tab-item outer-shadow active" data-target=".skills">
-          Skills
-        </span>
-        {/* <span className="tab-item" data-target=".experience">
-          Experiencia
-        </span> */}
-        <span className="tab-item" data-target=".education">
-          Educación
-        </span>
+      <div className="about-tabs">
+        {listTabs.map(({ id, title }) => (
+          <span
+            key={id}
+            className={`tab-item ${id === selected && 'outer-shadow active'}`}
+            onClick={() => setSelected(id)}
+          >
+            {title}
+          </span>
+        ))}
       </div>
     </div>
   );

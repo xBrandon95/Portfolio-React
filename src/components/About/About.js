@@ -1,11 +1,15 @@
+/* eslint-disable no-nested-ternary */
+import { useState } from 'react';
 import './About.css';
 import Education from './Education/Education';
-import Experience from './Experience/Experience';
 import AboutTabs from './Info/AboutTabs';
 import Info from './Info/Info';
 import ListSkills from './Skills/ListSkills';
+import Experience from './Experience/Experience';
 
 const About = () => {
+  const [selected, setSelected] = useState('skills');
+
   return (
     <section className="about-section section" id="about">
       <div className="container">
@@ -15,10 +19,17 @@ const About = () => {
           </div>
         </div>
         <Info />
-        <AboutTabs />
-        <ListSkills />
-        <Experience />
-        <Education />
+        <AboutTabs selected={selected} setSelected={setSelected} />
+
+        {selected !== 'skills' ? (
+          selected === 'education' ? (
+            <Education />
+          ) : (
+            <Experience />
+          )
+        ) : (
+          <ListSkills />
+        )}
       </div>
     </section>
   );

@@ -1,3 +1,4 @@
+import { dataExperience } from '../../../services/aboutData';
 import TimeLine from './TimeLine';
 
 const Experience = () => {
@@ -7,24 +8,15 @@ const Experience = () => {
         <div className="row">
           <div className="timeline">
             <div className="row">
-              <TimeLine
-                job="Full Stack Developer"
-                company="Soft, La Paz"
-                date="Ene, 2018 - Abr, 2020 "
-                icon="fa-briefcase"
-              />
-              <TimeLine
-                job="Web Designer"
-                company="Vista, La Paz"
-                date="Sep, 2017 - Dic, 2017"
-                icon="fa-briefcase"
-              />
-              <TimeLine
-                job="Frontend Developer"
-                company="Market, La Paz"
-                date="Jun, 2015 - Marzo 2016"
-                icon="fa-briefcase"
-              />
+              {dataExperience.map(({ id, job, company, date, icon }) => (
+                <TimeLine
+                  key={id}
+                  job={job}
+                  company={company}
+                  date={date}
+                  icon={icon}
+                />
+              ))}
             </div>
           </div>
         </div>
