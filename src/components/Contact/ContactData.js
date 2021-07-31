@@ -1,21 +1,27 @@
 const contactsInfo = [
   {
     id: 1,
-    name: 'Celular',
-    icon: 'fa fa-phone',
-    content: '+591 77703553',
+    name: 'Whatsapp',
+    icon: 'fab fa-whatsapp',
+    link: 'https://wa.me/59177703553?text=Buenas, me interesa sus servcios!!',
   },
   {
     id: 2,
     name: 'Correo',
     icon: 'fa fa-envelope',
-    content: 'jbticona2@gmail.com',
+    link: 'mailto:jbticona2@gmail.com',
   },
   {
     id: 3,
-    name: 'Dirección',
-    icon: 'fa fa-map-marker-alt',
-    content: 'La Paz - Bolivia',
+    name: 'Facebook',
+    icon: 'fab fa-facebook-f',
+    link: 'https://www.facebook.com/xBrandon95',
+  },
+  {
+    id: 4,
+    name: 'Linkedin',
+    icon: 'fab fa-linkedin',
+    link: 'https://www.linkedin.com/in/john-brandon-ticona-apaza-09a738189/',
   },
 ];
 

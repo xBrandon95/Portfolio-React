@@ -2,7 +2,7 @@
   Header 
 -------- */
 .header {
-  padding: 1rem 1rem;
+  padding: 1rem 0;
   position: fixed;
   background-color: var(--bg-black-50);
   width: 100%;

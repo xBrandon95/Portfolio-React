@@ -1,12 +1,14 @@
 const ContactItem = ({ info }) => {
-  const { name, icon, content } = info;
+  const { name, icon, link } = info;
   return (
     <div className="contact-item">
-      <div className="contact-item-inner outer-shadow">
-        <i className={icon} />
-        <span>{name}</span>
-        <p>{content}</p>
-      </div>
+      <a href={link} target="_blank" rel="noreferrer">
+        <div className="contact-item-inner outer-shadow">
+          <i className={icon} />
+          <span>{name}</span>
+          {/* <p>{content}</p> */}
+        </div>
+      </a>
     </div>
   );
 };

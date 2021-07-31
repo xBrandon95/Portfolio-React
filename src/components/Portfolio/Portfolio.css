@@ -22,7 +22,7 @@
   font-weight: 500;
   color: var(--text-black-600);
   text-transform: capitalize;
-  font-style: 1.6rem;
+  font-size: 1.6rem;
   transition: all 0.3s ease;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .portfolio-section .portfolio-item {
-  flex: 0 0 calc(33.33% - 1.5rem);
+  flex: 0 0 calc(33% - 1.5rem);
   max-width: 33.33%;
   padding-bottom: 2.5rem;
   display: flex;

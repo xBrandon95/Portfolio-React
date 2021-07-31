@@ -188,7 +188,7 @@ const Portfolio = () => {
             <Filter />
           </div>
 
-          <div className="row portfolio-items content-between">
+          <div className="row portfolio-items content-around">
             {portfolioData.map(item => (
               <PortfolioItem key={item.id} data={item} />
             ))}

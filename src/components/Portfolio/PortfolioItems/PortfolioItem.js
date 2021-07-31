@@ -41,10 +41,10 @@ const PortfolioItem = ({ data }) => {
                   Herramientas - <span>{tools}</span>
                 </li>
                 <li>
-                  Sitio Web -
+                  Enlace:
                   <span>
                     <a target="_blank" href={url} rel="noreferrer">
-                      Ver Proyecto
+                      {` Ver Proyecto`}
                     </a>
                   </span>
                 </li>

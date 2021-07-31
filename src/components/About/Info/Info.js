@@ -2,7 +2,7 @@ import SocialLinks from '../SocialLinks';
 
 const Info = () => {
   return (
-    <div className="row items-center content-center">
+    <div className="row items-center content-evenly">
       <div className="about-img">
         <div className="img-box inner-shadow">
           <img
@@ -25,7 +25,10 @@ const Info = () => {
           sin nunca apartarme de aprender, dando un estilo único y propio a cada
           proyecto e intentando innovar. */}
         </p>
-        <a href="cv.pdf" className="btn-1 outer-shadow hover-in-shadow">
+        <a
+          href="cv/CV_John-Ticona.pdf"
+          className="btn-1 outer-shadow hover-in-shadow"
+        >
           Descargar CV
         </a>
         <a

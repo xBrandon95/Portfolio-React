@@ -6,7 +6,7 @@ const PortfolioPopup = () => {
           <div className="pp-title">
             <h2>Personal Portfolio</h2>
             <p>
-              Category
+              Categoria
               <span className="pp-project-category">Web Application</span>
             </p>
           </div>

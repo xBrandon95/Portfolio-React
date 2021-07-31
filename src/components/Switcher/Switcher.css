@@ -8,6 +8,7 @@
   border-radius: 5px;
   transition: all 0.3s ease;
   transform: translateX(100%);
+  background-color: var(--bg-black-50);
 }
 
 .style-switcher.open {
@@ -26,6 +27,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   border-radius: 50%;
+  background-color: var(--bg-black-50);
 }
 
 .style-switcher .s-icon i {
@@ -68,21 +70,21 @@
 }
 
 .style-switcher .color-1 {
-  background-color: #ec1839;
-}
-
-.style-switcher .color-2 {
-  background-color: #5e17eb;
-}
-
-.style-switcher .color-3 {
   background-color: #1fc586;
 }
 
-.style-switcher .color-4 {
+.style-switcher .color-2 {
+  background-color: #ffb400;
+}
+
+.style-switcher .color-3 {
   background-color: #2196f3;
 }
 
+.style-switcher .color-4 {
+  background-color: #8e60e9;
+}
+
 .style-switcher .color-5 {
-  background-color: #ffb400;
+  background-color: #ec3853;
 }
