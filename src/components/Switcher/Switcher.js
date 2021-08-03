@@ -99,11 +99,11 @@ const Switcher = () => {
       </div>
       <h4>Theme Colors</h4>
       <div className="colors">
-        <span className="color-1" onClick={() => setActiveStyle('color-1')} />
-        <span className="color-2" onClick={() => setActiveStyle('color-2')} />
-        <span className="color-3" onClick={() => setActiveStyle('color-3')} />
         <span className="color-4" onClick={() => setActiveStyle('color-4')} />
+        <span className="color-1" onClick={() => setActiveStyle('color-1')} />
         <span className="color-5" onClick={() => setActiveStyle('color-5')} />
+        <span className="color-3" onClick={() => setActiveStyle('color-3')} />
+        <span className="color-2" onClick={() => setActiveStyle('color-2')} />
       </div>
     </div>
   );
