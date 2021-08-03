@@ -1,66 +1,79 @@
+import { useRef, useState } from 'react';
 import './NavMenu.css';
 
-const NavMenu = () => {
+const menuOptions = [
+  {
+    id: 'home',
+    title: 'Inicio',
+  },
+  {
+    id: 'about',
+    title: 'Acerca de',
+  },
+  {
+    id: 'services',
+    title: 'Servicios',
+  },
+  {
+    id: 'portfolio',
+    title: 'Portafolio',
+  },
+  {
+    id: 'contact',
+    title: 'Contacto',
+  },
+];
+
+const NavMenu = ({ menuOpen, setMenuOpen }) => {
+  const [option, setOption] = useState('home');
+
+  const effect = useRef();
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+
+    effect.current.classList.add('active');
+    setTimeout(() => {
+      effect.current.classList.remove('active');
+    }, 300);
+  };
+
   return (
     <>
-      <nav className="nav-menu">
-        <div className="close-nav-menu outer-shadow hover-in-shadow">
+      <nav className={`nav-menu ${menuOpen && 'open'}`}>
+        <div
+          className="close-nav-menu outer-shadow hover-in-shadow"
+          onClick={closeMenu}
+        >
           &times;
         </div>
         <div className="nav-menu-inner">
           <ul>
-            <li>
-              <a href="#home" className="link-item inner-shadow active">
-                Inicio
-              </a>
-            </li>
-            <li>
-              <a
-                href="#about"
-                className="link-item outer-shadow hover-in-shadow"
-              >
-                Acerca de
-              </a>
-            </li>
-            <li>
-              <a
-                href="#services"
-                className="link-item outer-shadow hover-in-shadow"
-              >
-                Servicios
-              </a>
-            </li>
-            <li>
-              <a
-                href="#portfolio"
-                className="link-item outer-shadow hover-in-shadow"
-              >
-                Portafolio
-              </a>
-            </li>
-            {/* <li>
-              <a
-                href="#testimonial"
-                className="link-item outer-shadow hover-in-shadow"
-              >
-                Testimonial
-              </a>
-            </li> */}
-            <li>
-              <a
-                href="#contact"
-                className="link-item outer-shadow hover-in-shadow"
-              >
-                Contacto
-              </a>
-            </li>
+            {menuOptions.map(({ id, title }) => (
+              <li key={id}>
+                <a
+                  href={`#${id}`}
+                  className={`link-item ${
+                    option === id
+                      ? 'inner-shadow active'
+                      : 'outer-shadow hover-in-shadow'
+                  }`}
+                  onClick={() => {
+                    setOption(id);
+                    closeMenu();
+                  }}
+                >
+                  {title}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
         {/* copyright text */}
 
         <p className="copyright-text">&copy; 2021 The xSagaX</p>
       </nav>
-      <div className="fade-out-effect" />
+      <div className="fade-out-effect" ref={effect} />
     </>
   );
 };

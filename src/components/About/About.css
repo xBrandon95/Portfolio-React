@@ -16,7 +16,7 @@
 }
 
 .about-section .about-info {
-  padding: 1.5rem;
+  padding: 2rem 5rem;
   flex: 0 0 60%;
   max-width: 60%;
 }
@@ -108,8 +108,8 @@
 }
 
 .about-section .skills .skill-item {
-  flex: 0 0 calc(15% - 1.5rem);
-  max-width: 15%;
+  flex: 0 0 calc(25% - 1.5rem);
+  max-width: 25%;
   margin: 2rem 0;
   text-align: center;
   display: flex;

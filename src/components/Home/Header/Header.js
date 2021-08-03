@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => {
+const Header = ({ menuOpen, setMenuOpen }) => {
   return (
     <header className="header outer-shadow">
       <div className="container">
@@ -9,7 +9,10 @@ const Header = () => {
           <div className="logo">
             <a href="index.html">J</a>
           </div>
-          <div className="hamburger-btn outer-shadow hover-in-shadow">
+          <div
+            className="hamburger-btn outer-shadow hover-in-shadow"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
             <span />
           </div>
         </div>

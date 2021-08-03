@@ -1,7 +1,8 @@
 import './Contact.css';
-import contactsInfo from './ContactData';
-// import ContactForm from './ContactForm';
 import ContactItem from './ContactItem';
+
+import contactInfo from '../../services/contactData';
+// import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
         </div>
 
         <div className="row content-between">
-          {contactsInfo.map(item => (
+          {contactInfo.map(item => (
             <ContactItem key={item.id} info={item} />
           ))}
         </div>

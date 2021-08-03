@@ -13,7 +13,7 @@ import {
 export const dataSocialIcons = [
   {
     id: 'whatsapp',
-    url: 'https://wa.me/59177703553?text=Buenas, me interesa sus servcios!!',
+    url: 'https://wa.me/59177703553?text=Buenas, me interesa sus servicios!!!',
     icon: faWhatsapp,
   },
   {
@@ -22,15 +22,20 @@ export const dataSocialIcons = [
     icon: faFacebookF,
   },
   {
+    id: 'github',
+    url: 'https://github.com/xBrandon95',
+    icon: faGithub,
+  },
+  {
     id: 'linkedIn',
     url: 'https://www.linkedin.com/in/john-brandon-ticona-apaza-09a738189',
     icon: faLinkedin,
   },
-  {
-    id: 'github',
-    url: 'mailto:jbticona2@gmail.com',
-    icon: faGithub,
-  },
+  // {
+  //   id: 'gmail',
+  //   url: 'mailto:jbticona2@gmail.com',
+  //   icon: faEnvelope,
+  // },
 ];
 
 export const listTabs = [
@@ -40,7 +45,7 @@ export const listTabs = [
   },
   {
     id: 'education',
-    title: 'Education',
+    title: 'Educación',
   },
   // {
   //   id: 'experience',
@@ -78,6 +83,16 @@ export const listSkills = [
     id: '6',
     name: 'BOOTSTRAP',
     icon: 'img/skills/bootstrap.svg',
+  },
+  {
+    id: '7',
+    name: 'NODE JS',
+    icon: 'img/skills/nodejs.svg',
+  },
+  {
+    id: '8',
+    name: 'MONGODB',
+    icon: 'img/skills/mongo.svg',
   },
 ];
 

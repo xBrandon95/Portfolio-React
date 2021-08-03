@@ -183,10 +183,10 @@ img {
   width: 4rem;
   height: 4rem;
   /* border: 0.4rem solid #8a48ff; */
-  border: 0.4rem solid var(--skin-color);
-  right: 10%;
-  bottom: 10%;
-  animation: spin 10s linear infinite;
+  border: 0.5rem solid var(--skin-color);
+  left: 55%;
+  top: 20%;
+  animation: spin 15s linear infinite;
 }
 .effect-2 {
   left: 10%;
@@ -210,15 +210,15 @@ img {
   border: 2.5rem solid var(--skin-color);
   border-radius: 50%;
   left: 40%;
-  top: -4rem;
+  top: -6rem;
   animation: leftBounce 6s ease-in-out infinite;
 }
 
 .effect-4 {
   border-top: 3rem solid transparent;
   border-left: 3rem solid var(--skin-color);
-  left: 30%;
-  top: 20%;
+  left: 35%;
+  bottom: 25%;
   animation: spin 12s linear infinite;
 }
 

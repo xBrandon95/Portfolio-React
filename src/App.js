@@ -27,8 +27,8 @@ function App() {
       <Preloader />
       <Home />
       <About />
-      <Services />
       <Portfolio />
+      <Services />
       {/* <Testimonial /> */}
       <Contact />
       <Footer />

@@ -1,21 +1,19 @@
-const Filter = () => {
+import { listTabsPortfolio } from '../../../services/portfolioData';
+
+const Filter = ({ selectedTab, setSelectedTab }) => {
   return (
     <div className="portfolio-filter">
-      <span className="filter-item active outer-shadow" data-target="all">
-        Todos
-      </span>
-      <span className="filter-item" data-target="sitio-web">
-        Sitios Web
-      </span>
-      <span className="filter-item" data-target="aplicación-web">
-        Aplicación Web
-      </span>
-      {/* <span className="filter-item" data-target="mobile-app">
-        mobile app
-      </span>
-      <span className="filter-item" data-target="e-commerce">
-        e-commerce
-      </span> */}
+      {listTabsPortfolio.map(({ id, title }) => (
+        <span
+          key={id}
+          className={`filter-item ${
+            selectedTab === id && 'outer-shadow active'
+          }`}
+          onClick={() => setSelectedTab(id)}
+        >
+          {title}
+        </span>
+      ))}
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Info = () => {
       <div className="about-img">
         <div className="img-box inner-shadow">
           <img
-            src="img/profile-pic.png"
+            src="img/hero/startup.svg"
             className="outer-shadow"
             alt="profile-pic"
           />
@@ -14,9 +14,10 @@ const Info = () => {
       </div>
       <div className="about-info">
         <p>
-          <span>Hola mi nombre es John Ticona y soy Frontend Developer</span>,
-          <br />
-          estudio la carrera de Informática, me considero una persona
+          <span>
+            Hola mi nombre es John Brandon Ticona y soy Desarrollador Web
+          </span>
+          , estudio la carrera de Informática, me considero una persona
           autodidacta que le apasiona la tecnología, con muchas ganas de
           trabajar, aprender cosas nuevas, mejorar mis habilidades y colaborar
           en equipo.

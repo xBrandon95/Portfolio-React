@@ -1,3 +1,5 @@
+// import PortfolioPopup from './PortfolioPopup';
+
 const PortfolioItem = ({ data }) => {
   const {
     title,
@@ -14,12 +16,14 @@ const PortfolioItem = ({ data }) => {
   return (
     <div className="portfolio-item" data-category={category}>
       <div className="portfolio-item-inner outer-shadow">
-        <div className="portfolio-item-img">
-          <img src={image} alt={title} data-screenshots={images} />
-          {/* view project btn */}
-          <span className="view-project">Ver Proyecto</span>
-        </div>
-        <p className="portfolio-item-title">{title}</p>
+        <a href={url} target="_blank" rel="noreferrer">
+          <div className="portfolio-item-img">
+            <img src={image} alt={title} data-screenshots={images} />
+            {/* view project btn */}
+            <span className="view-project">Ver Proyecto</span>
+          </div>
+          <p className="portfolio-item-title">{title}</p>
+        </a>
 
         {/* portolio item details  */}
         <div className="portfolio-item-details">
@@ -53,6 +57,7 @@ const PortfolioItem = ({ data }) => {
           </div>
         </div>
         {/* portolio item details end */}
+        {/* <PortfolioPopup /> */}
       </div>
     </div>
   );

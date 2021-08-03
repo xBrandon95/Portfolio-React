@@ -1,23 +1,23 @@
-const PopupInfo = () => {
+const PopupInfo = ({ data }) => {
   const { description, date, client, tools, url } = data;
 
   return (
     <div className="row">
       <div className="description">
         <h3>Resumen del Proyecto</h3>
-        <p>{description}</p>
+        <p>{description}sssss</p>
       </div>
       <div className="info">
         <h3>Informacion del Proyecto</h3>
         <ul>
           <li>
-            Fecha - <span>{date}</span>
+            Fecha - <span>{date}ssss</span>
           </li>
           <li>
-            Client - <span>{client}</span>
+            Client - <span>{client}sss</span>
           </li>
           <li>
-            Tools - <span>{tools}</span>
+            Tools - <span>{tools}ss</span>
           </li>
           <li>
             Web -

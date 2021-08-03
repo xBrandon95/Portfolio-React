@@ -1,6 +1,6 @@
 const PortfolioPopup = () => {
   return (
-    <div className="pp portfolio-popup">
+    <div className="pp portfolio-popup open">
       <div className="pp-details">
         <div className="pp-details-inner">
           <div className="pp-title">

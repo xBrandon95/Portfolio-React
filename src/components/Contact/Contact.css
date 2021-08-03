@@ -26,8 +26,8 @@
   width: 100%;
   height: 100%;
 }
-.contact-section .contact-item-inner i {
-  font-size: 50px;
+.contact-section .contact-item-inner .contact-icon {
+  font-size: 40px;
   color: var(--skin-color);
 }
 

@@ -1,12 +1,25 @@
 @media (max-width: 991px) {
   .portfolio-section .portfolio-item,
   .service-section .service-item {
-    flex: 0 0 48%;
-    max-width: 48%;
+    flex: 0 0 47%;
+    max-width: 47%;
+  }
+
+  .home-section .home-text {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .home-section .home-img {
+    flex: 0 0 40%;
+    max-width: 40%;
   }
 
   .home-section .home-text h2 {
-    font-size: 46px;
+    font-size: 4.5rem;
+  }
+
+  .home-section .home-text h1 {
+    font-size: 3.5rem;
   }
 }
 
@@ -56,6 +69,10 @@
     max-width: 300px;
   }
 
+  .effect-1 {
+    display: none;
+  }
+
   .effect-2 {
     left: 5%;
   }
@@ -71,6 +88,7 @@
   .effect-4 {
     left: 80%;
     top: 48%;
+    display: none;
   }
 
   .effect-5 {
@@ -135,9 +153,17 @@
     max-width: 50%;
   }
 
+  .about-section .about-info {
+    padding: 0;
+  }
+
   .about-section .about-img {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .home-section {
+    top: 0;
   }
 
   .home-section .home-img .img-box {
@@ -147,5 +173,13 @@
 
   .home-section .home-text h2 {
     font-size: 30px;
+  }
+
+  .home-section .home-text h1 {
+    font-size: 28px;
+  }
+
+  .home-section .home-text p {
+    font-size: 20px;
   }
 }
