@@ -50,7 +50,7 @@
 }
 
 .home-section .home-img .img-box {
-  max-width: 50rem;
+  /* max-width: 50rem; */
   display: block;
   margin: auto;
   /* border-radius: 50%; */

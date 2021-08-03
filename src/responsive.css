@@ -167,16 +167,30 @@
   }
 
   .home-section .home-img .img-box {
-    margin-bottom: 40px;
-    width: 260px;
+    /* margin-bottom: 40px; */
+    width: 100%;
   }
 
   .home-section .home-text h2 {
-    font-size: 27px;
+    font-size: 32px;
   }
 
   .home-section .home-text h1 {
+    font-size: 30px;
+  }
+
+  .home-section .home-text p {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .home-section .home-text h2 {
+    font-size: 25px;
+  }
+
+  .home-section .home-text h1 {
+    font-size: 23px;
   }
 
   .home-section .home-text p {
