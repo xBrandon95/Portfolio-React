@@ -19,7 +19,7 @@ const Home = () => {
             <div className="home-text">
               <p>Hola mi nombre es: </p>
               <h2>
-                <span>{'<'}</span> BRANDON TICONA <span>{'/>'}</span>
+                <span>{'<'}</span> JOHN BRANDON <span>{'/>'}</span>
               </h2>
               {/* <h1>Frontend Developer</h1> */}
               <h1>Desarrollador Web Jr.</h1>
