@@ -22,7 +22,7 @@ const Home = () => {
                 <span>{'<'}</span> JOHN BRANDON <span>{'/>'}</span>
               </h2>
               {/* <h1>Frontend Developer</h1> */}
-              <h1>Desarrollador Web Jr.</h1>
+              <h1>Frontend Developer Jr.</h1>
               <a
                 href="#about"
                 className="link-item btn-1 outer-shadow hover-in-shadow"

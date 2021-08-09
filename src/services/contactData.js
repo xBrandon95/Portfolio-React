@@ -1,7 +1,8 @@
 import {
   faWhatsapp,
-  faFacebookF,
+  // faFacebookF,
   faLinkedin,
+  faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -19,11 +20,17 @@ const contactInfo = [
     icon: faEnvelope,
     link: 'mailto:jbticona2@gmail.com',
   },
+  // {
+  //   id: 3,
+  //   name: 'Facebook',
+  //   icon: faFacebookF,
+  //   link: 'https://www.facebook.com/xBrandon95',
+  // },
   {
-    id: 3,
-    name: 'Facebook',
-    icon: faFacebookF,
-    link: 'https://www.facebook.com/xBrandon95',
+    id: 5,
+    name: 'Github',
+    icon: faGithub,
+    link: 'https://github.com/xBrandon95',
   },
   {
     id: 4,

@@ -1,11 +1,12 @@
 import {
   faWhatsapp,
-  faFacebookF,
-  faLinkedin,
+  // faFacebookF,
+  // faLinkedin,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 
 import {
+  faEnvelope,
   faBriefcase,
   faGraduationCap,
 } from '@fortawesome/free-solid-svg-icons';
@@ -16,25 +17,25 @@ export const dataSocialIcons = [
     url: 'https://wa.me/59177703553?text=Buenas, me interesa sus servicios!!!',
     icon: faWhatsapp,
   },
+  // {
+  //   id: 'facebook',
+  //   url: 'https://www.facebook.com/xBrandon95',
+  //   icon: faFacebookF,
+  // },
   {
-    id: 'facebook',
-    url: 'https://www.facebook.com/xBrandon95',
-    icon: faFacebookF,
+    id: 'gmail',
+    url: 'mailto:jbticona2@gmail.com',
+    icon: faEnvelope,
   },
   {
     id: 'github',
     url: 'https://github.com/xBrandon95',
     icon: faGithub,
   },
-  {
-    id: 'linkedIn',
-    url: 'https://www.linkedin.com/in/john-brandon-ticona-apaza-09a738189',
-    icon: faLinkedin,
-  },
   // {
-  //   id: 'gmail',
-  //   url: 'mailto:jbticona2@gmail.com',
-  //   icon: faEnvelope,
+  //   id: 'linkedIn',
+  //   url: 'https://www.linkedin.com/in/john-brandon-ticona-apaza-09a738189',
+  //   icon: faLinkedin,
   // },
 ];
 
