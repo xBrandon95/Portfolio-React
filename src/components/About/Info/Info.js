@@ -25,7 +25,7 @@ const Info = () => {
           proyecto e intentando innovar. */}
         </p>
         <a
-          href="cv/CV-JohnTicona.pdf"
+          href="cv/CV_JohnTicona.pdf"
           className="btn-1 outer-shadow hover-in-shadow"
         >
           Descargar CV

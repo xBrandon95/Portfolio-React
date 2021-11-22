@@ -14,18 +14,33 @@ export const listTabsPortfolio = [
 ];
 
 export const projectsData = [
+  // {
+  //   id: 1,
+  //   tab: 'web',
+  //   title: 'Centro Virgen Niña',
+  //   description:
+  //     'Sitio Web desarrollado para la Asociación Centro Virgen Niña que brinda atención a niñ@s con discapacidad y familias en estado de pobreza, dicho sitio tiene el objetivo de brindar información sobre las especialidades, plantel docente y de sus contactos en redes sociales.',
+  //   image: 'img/portfolio/thumb/centro-virgen.png',
+  //   category: 'sitio-web',
+  //   date: '2021',
+  //   client: 'Centro Virgen Niña',
+  //   tools: 'React',
+  //   url: 'https://centrovirgenninaepdb.edu.bo/',
+  //   images:
+  //     'img/portfolio/large/CentroVirgen/1.png, img/portfolio/large/CentroVirgen/2.png, img/portfolio/large/CentroVirgen/3.png',
+  // },
   {
     id: 1,
     tab: 'web',
-    title: 'Centro Virgen Niña',
+    title: 'Cafetería',
     description:
       'Sitio Web desarrollado para la Asociación Centro Virgen Niña que brinda atención a niñ@s con discapacidad y familias en estado de pobreza, dicho sitio tiene el objetivo de brindar información sobre las especialidades, plantel docente y de sus contactos en redes sociales.',
-    image: 'img/portfolio/thumb/centro-virgen.png',
+    image: 'img/portfolio/thumb/cafeteria2.png',
     category: 'sitio-web',
     date: '2021',
-    client: 'Centro Virgen Niña',
+    client: 'Proyecto personal',
     tools: 'React',
-    url: 'https://centrovirgenninaepdb.edu.bo/',
+    url: 'https://cafeteria-page.netlify.app',
     images:
       'img/portfolio/large/CentroVirgen/1.png, img/portfolio/large/CentroVirgen/2.png, img/portfolio/large/CentroVirgen/3.png',
   },
